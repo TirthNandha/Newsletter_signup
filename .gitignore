@@ -1,1 +1,4 @@
+# Ignore environment and configuration files
+*.env
+*.config
 node_modules
