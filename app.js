@@ -2,6 +2,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const request = require("request")
 const https = require("https")
+const mailchimpApiKey = process.env.MAILCHIMP_API_KEY;
 
 const app = express();
 app.use(express.static("public"))
@@ -63,5 +64,3 @@ app.listen(3000, function() {
     console.log("Server is running on port 3000")
 })
 
-//82df5e8e1c6ecd05a3ce6895435eaded-us21 
-//9443665675
